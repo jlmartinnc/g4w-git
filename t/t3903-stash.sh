@@ -9,7 +9,7 @@ GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main
 export GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME
 
 . ./test-lib.sh
-. $TEST_DIRECTORY/lib-unique-files.sh
+. "$TEST_DIRECTORY"/lib-unique-files.sh
 
 test_expect_success 'setup' '
 	test_oid_cache <<-EOF
